@@ -36,7 +36,7 @@ header .headline{
   font-size:32px;
 }
 
-nav{
+.header-nav{
   width:880px;
   margin:0 auto;
   border-top:solid 0.7px #000;
@@ -96,4 +96,24 @@ main{
   overflow:hidden;
   white-space:nowrap;
   text-overflow:ellipsis;
+}
+
+#container{
+  height:500px;
+}
+
+.image1 {
+  background-image: url(image1.jpg);
+}
+.image2 {
+  background-image: url(image2.jpg);
+}
+.image3 {
+  background-image: url(image3.jpg);
+}
+.image4 {
+  background-image: url(image4.jpg);
+}
+.image5 {
+  background-image: url(image5.jpg);
 }
