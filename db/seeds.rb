@@ -11,6 +11,11 @@ List.create!(
   body:'seedファイルについて'
 )
 
+Admin.create!(
+  email: "hoge@hoge",
+  password: "hogehoge"
+  )
+
 10.times do |number|
   List.create!(title:'timesを学習しよう',body:number)
 end
